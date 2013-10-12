@@ -1,0 +1,76 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {   border: 0 none;    margin: 0;    outline: 0 none;    padding: 0;    vertical-align: baseline;}
+body {  background: none repeat scroll 0 0 #EEEEEE;  color: #555555;  font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;  font-size: 15px;  height: 100%;}
+a:link, a:active, a:visited { color: #0066CC;}
+a:hover{color: #0066FF;}
+p,h1,h2,h3,h4,h5,h6{margin: 1em 0; padding: 0;}
+h2.low{margin-bottom: 0.5em}
+img{border: 0;}
+table tr td{padding: 5px}
+
+
+#container{ margin: 0 auto;   width: 960px;}
+div.content{background: url("./img/conten-repeat.gif") repeat-x scroll 0 0 transparent; padding: 8px; -moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px;    border: 1px solid #CCCCCC;}
+div.sub-content { background: none repeat scroll 0 0 #FFFFFF;    border: 1px solid #CCCCCC; -moz-border-radius:3px; -webkit-border-radius:3px;   border-radius: 3px 3px 3px 3px; padding: 0 30px;}
+.spryJPG{background: url("./img/spry.jpg") no-repeat scroll 0 0 transparent;}
+.spryPNG{background: url("./img/spry.png") no-repeat scroll 0 0 transparent;}
+#contenido{float: left; width: 620px;}
+
+/* HEADER */
+#header{   margin-top: 15px;}
+#header-mesage{border-radius: 5px 5px 5px 5px;    height: 110px;    width: 960px; margin: 15px		0;}
+#header-mesage h2{    color: #FFFFFF;  font-size: 44px;  left: 30px;  margin-bottom: 5px;  margin-top: 0;  position: relative;text-shadow: 1px 1px 1px #3D69AE;}
+#header-mesage p{color: #FFFFFF; font-size: 16px; left: 57px; margin-top: 0; position: relative;text-shadow: 1px 1px 1px #3D69AE;}
+#header-logo{margin: 0; padding: 0;}
+.header-clilog{background: none repeat scroll 0 0 #FFFFFF;  border-radius: 4px 4px 4px 4px;  font-size: 13px;  margin-top: 13px;  padding: 6px 8px;}
+.header-social{margin: 13px 30px;}
+.act-exitosa{  float: left; margin-left: 35px; margin-top: 24px;}
+
+.header-social ul{ list-style: none inside none;}
+.header-social ul li {float: left;    height: 23px;    margin-left: 15px;    padding: 0;    width: 23px;}
+
+.soc-facebook{background-position: -123px 0px;}
+.soc-twitter{background-position: -95px 0px;}
+.soc-youtube{background-position: -151px 0px;}
+.soc-dattatv{background-position: -179px 0px;}
+
+
+/* CONTENIDO CENTRO */
+.col-ayuda{ width: 240px;}
+.ilus-damd{background-position: 0 -68px;float: left;}
+.ilus-da{background-position: 1px -196px; display: block; height: 33px; width: 148px;float: left;}
+.ilus-md{background-position: -72px -33px; display: block;  height: 33px; width: 148px;float: left; margin-right: 20px;}
+ul.col-left,ul.col-right{    list-style: square outside url("./img/check.gif");}
+ul.col-left li,ul.col-right li{margin-bottom: 10px;}
+p.thanks{    background: none repeat scroll 0 0 #EBEBEB;    border: 1px dotted #DDDDDD;  border-radius: 5px 5px 5px 5px; -moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px;  margin-bottom: 25px;    padding: 29px 97px;}
+
+/* BARRA LATERAL */
+#lateral{float: right; width: 305px;}
+#lateral .sub-content{margin-bottom: 15px;}
+#lateral ul {padding: 0; }
+#lateral ul li{border-bottom: 1px dotted #DDD;    list-style: none outside none;    margin: 0 0 30px;    padding: 0 0 30px;}
+#lateral ul li:last-child{border-bottom: 0;}
+#lateral h3{    color: #2379C9;    font-size: 16px;    margin: 10px 0;    padding: 0;}
+#lateral p{font-size: 14px;    margin: 0;}
+.video-institucional{background-position: -980px 0px; margin: 20px 0;}
+
+/* SCREENS SITIOS */
+#scr-trabajaendattatec{background-position: 0 -112px;}
+#scr-dattamagazine{background-position: -244px -112px;}
+#scr-pixelscode{background-position: -490px -111px;}
+#scr-primeroengoogle{background-position: 0 -190px;}
+#scr-dattatecblog{background-position: -245px -190px;}
+#scr-dattatecmicrosoft{background-position: -490px -192px;}
+#scr-dattatectv{background-position: -736px -112px;}
+#scr-dattatecceo{background-position: -736px -190px;}
+
+
+/* PIE */
+#pie p{ text-align: center;}
+
+/* TOOLS */
+.CLEAR{clear: both;}
+.LEFT{float: left;}
+.RIGHT{float: right;}
+.SEPARATOR{    border-top: 1px solid #F5F5F5;    margin: 20px auto;    width: 60%;}
+.col-left{margin-left: 8%;   float: left;  width: 40%;}
+.col-right{float: right; width: 43%;}

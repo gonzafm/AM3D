@@ -1,0 +1,79 @@
+.celda-link
+{
+	width:100%; 
+	height:100%;
+	position: relative;
+}
+.link-celda
+{
+	width:100%;
+	height:100%;
+	position: absolute;
+	display:block;
+}
+#botonEmpresa a
+{
+	height:119px;
+	width:271px;
+    display:block;
+	background:url(../images/boton_empresa.jpg) 0 0;
+}
+#botonEmpresa a:hover
+{
+	background:url(../images/boton_empresa_over.jpg) 0 0;
+}
+#botonContacto a
+{
+	height:123px;
+	width:271px;
+    display:block;
+	background:url(../images/boton_contacto.jpg) 0 0;
+}
+#botonContacto a:hover
+{
+	background:url(../images/boton_contacto_over.jpg) 0 0;
+}
+#botonCotizador a
+{
+	height:110px;
+	width:271px;
+    display:block;
+	background:url(../images/boton_cotizador.jpg) 0 0;
+}
+#botonCotizador a:hover
+{
+	background:url(../images/boton_cotizador_over.jpg) 0 0;
+}
+#botonFotos a
+{
+	height:89px;
+	width:271px;
+    display:block;
+	background:url(../images/boton_fotos.jpg) 0 0;
+}
+#botonFotos a:hover
+{
+	background:url(../images/boton_fotos_over.jpg) 0 0;
+}
+#nav
+{
+	float: left;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+.loginbox
+{
+	background:none;
+	border:none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:blue;
+}
+#mensaje
+{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: red;
+}

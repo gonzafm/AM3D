@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cotizador Online</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link rel="Stylesheet" type="text/css" href="css/estilos.css">
+	<style type="text/css">
+	.needsfilled {
+		font-size:10px;
+		font-weight: bold;
+		color:red;
+	}	
+	</style>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/validation.js"></script>
+	
+	
+	<script type="text/javascript">
+
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-38446831-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+
+	</script>
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<table width="950" height="717" border="0" cellpadding="0" cellspacing="0" align="center" style="margin-top:10px; margin-bottom:20px">
+	<tr>
+		<td id="header" colspan="3" style="background-image:url('images/web_cotizador_01.jpg')" width="950" height="276" alt=""></td>
+	</tr>
+	<tr>
+		<td id="buttons">
+			<div>
+				<ul id="nav">
+					<li id="botonEmpresa"><a href="empresa.html"></a></li>
+					<li id="botonContacto"><a href="contacto.php"></a></li>
+					<li id="botonCotizador"><a href="cotizador.html"></a></li>
+					<li id="botonFotos"><a href="fotos.html"></a></li>
+				</ul>
+			</div>
+		</td>
+		<td style="background-image:url('images/web_cotizador_03.jpg')" width="590" height="441" alt="">
+			<form id="theform" enctype="multipart/form-data" action="cotizador.php" method="post">
+				<div style="width:250px; height:400px; margin-left:110px;text-align:center;border:0px solid red">
+					<input type="hidden" name="MAX_FILE_SIZE" value="100000000000000" />
+					<div style="width:250px; height:50px; margin-top:20px;text-align:center;border:0px solid blue">
+						<input name="uploadedfile" type="file" value="jorge" />
+					</div>
+					<div style="width:250px; height:50px; margin-top:10px;text-align:center;border:0px solid blue">
+						<input type="text" id="email" name="email" class="loginbox" style="margin-top:18px; margin-left:-10px; width:170px; height:16px;text-align:center;"/>
+					</div>
+					<input type="image" src="images/boton_descargar.png" name="enviar" id="enviar" value="enviado" onMouseOut="this.src='images/boton_descargar.png'" onMouseOver="this.src='images/boton_descargar_over.png'"/>
+				</div>
+			</form>
+		</td>
+		<td rowspan="4" style="background-image:url('images/web_cotizador_04.jpg')" width="89" height="441" alt=""></td>
+	</tr>
+</table>
+</body>
+</html>
